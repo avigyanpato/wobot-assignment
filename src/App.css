@@ -47,8 +47,17 @@ transform: rotate(-30deg)
 
 .anchor{
     position:absolute;
-    left:41%;
+    left:42.5%;
+    right: 42.5%;
     top: 850px;
     text-decoration: none;
     color: #545454;
 }
+
+@media (max-width: 1200px){
+    
+    .anchor{
+        left:25%;
+        right: 25%;
+    }
+  }

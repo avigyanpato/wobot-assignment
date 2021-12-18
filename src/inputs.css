@@ -5,9 +5,10 @@
     padding: 40px 91px;
     
     position: absolute;
-    width: 560px;
+    width: 37%;
     height: 625px;
-    left: 440px;
+    left: 31%;
+    right: 31%;
     top: 93px;
     
     /* White */
@@ -94,3 +95,23 @@ body {
     background-color: #3766E8;
     color: white;
 }
+
+.form-control{
+    padding-right: 15em;
+}
+
+@media (max-width: 1200px){
+    
+    .container{
+        width: 100%;
+        left: 0%;
+        right: 0%;
+    }
+  }
+
+  @media (max-width: 1500px){
+    
+    .container{
+        height: 700px;
+    }
+  }
